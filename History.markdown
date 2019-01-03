@@ -169,6 +169,8 @@
   * dev: test oldest and latest Ruby only (#7412)
   * Reduce array traversal in Jekyll::Reader (#7157)
   * Create symlink only if target is accessible (#7429)
+  * Test with the new Ruby v2.6 (#7438)
+  * Bump RuboCop to v0.62.x (#7449)
 
 ### Bug Fixes
 
@@ -182,6 +184,8 @@
   * Re-implement handling Liquid blocks in excerpts (#7250)
   * Theme gems: ensure directories aren&#39;t symlinks (#7419)
   * Documents should be able to render their date (#7404)
+  * Fix Interpreter warning from Jekyll::Renderer (#7448)
+  * Dont write static files from unrendered collection (#7410)
 
 ### feature
 
